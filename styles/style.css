@@ -1,18 +1,19 @@
 .header {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    padding: 92px 24px 96px;
+    padding: 93px 24px 91px;
     background-color: #fff;
 }
 
 .header__menu {
-    padding: 44px 30px 39px 26.52px;
+    padding: 43px 30px 39px 26.52px;
 }
 
 .header__links-list {
     display: flex;
-    gap: 30px;
+    gap: 27px;
     font-size: 17.8px;
+    letter-spacing: 0.9px;
 }
 
 .header__links-list-item_no-bullit {
@@ -26,7 +27,7 @@
 
 .header__link {
     text-decoration: none;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.3px;
 }
 
 .header__link_active {
@@ -43,16 +44,14 @@
     flex-direction: column;
     align-items: flex-start;
     font-style: normal;
-    padding: 5px 30px 2px 186px;
+    padding: 4px 30px 2px 186px;
     font-size: 18px;
     line-height: 24px;
 }
 
 .address {
-    font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.1px;
-    line-height: 24.5px;
 }
 
 .address_decoration {
@@ -119,7 +118,7 @@
 
 .cover__description-text {
     padding-top: 15px;
-    padding-left: 78px;
+    padding-left: 78.4px;
     padding-bottom: 62px;
     font-size: 22px;
     text-transform: uppercase;
@@ -134,7 +133,7 @@
     background-color: transparent;
     width: 257px;
     height: 52px;
-    margin-left: 79px;
+    margin-left: 78px;
     cursor: crosshair;
 }
 
@@ -217,13 +216,13 @@
 
 .about {
     background-color: #fff;
-    padding: 146px 24px 84px 24px;
+    padding: 146px 24px 84px 25px;
     display: grid;
     grid-template-columns: 312px auto;
 }
 
 .about__column {
-    padding-left: 46px;
+    padding-left: 45px;
 }
 
 .about__logo {
@@ -250,7 +249,7 @@
 .about__text {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 101px;
     row-gap: 24px;
     font-size: 20px;
     line-height: 24px;
@@ -260,7 +259,7 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    padding: 92px 24px 96px;
+    padding: 91px 23px 96px;
     background-color: #fff;
 }
 
@@ -272,19 +271,6 @@
     padding: 5px 190px 2px 27px;
     font-size: 18px;
     line-height: 24px;
-}
-
-.address {
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-    line-height: 24.5px;
-}
-
-.address_decoration {
-    text-decoration: underline;
-    text-decoration-style:solid;
-    text-underline-offset: 5px;
 }
 
 .footer__menu {
@@ -300,7 +286,6 @@
 
 .footer__menu-list-item {
     list-style: none;
-    padding-left: 4px;
 }
 
 .footer__menu-link {
@@ -315,7 +300,7 @@
 
 .footer__social-list {
     padding-top: 6px;
-    padding-left: 183px;
+    padding-left: 186px;
     display: flex;
     gap: 48px;
 }
